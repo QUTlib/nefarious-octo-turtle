@@ -1,0 +1,33 @@
+#
+# perltidy rules for the 'eprints' project
+#
+# Use `perltidy -epcfg` for hash-heavy cfg.d scripts.
+#
+# Works with the vim modeline: ts=8 sts=4 sw=4
+#
+
+--maximum-line-length=128
+
+--indent-columns=4
+--continuation-indentation=2
+--entab-leading-whitespace=8
+
+--opening-brace-on-new-line
+--no-opening-anonymous-sub-brace-on-new-line
+--line-up-parentheses
+--closing-token-indentation=1
+--vertical-tightness=1
+
+--paren-tightness=0
+--square-bracket-tightness=0
+--block-brace-tightness=0
+
+--no-space-after-keyword='*'
+--space-after-keyword='return'
+--no-want-left-space='.. =>'
+--no-want-right-space='.. =>'
+--opening-token-right
+--want-break-after='. << >>'
+
+epcfg { -cti=0 -nwls=.. -nwrs=.. -wls='=>' -wrs='=>' }
+

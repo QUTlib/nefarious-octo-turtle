@@ -1,2 +1,4 @@
 # nefarious-octo-turtle
-standard configuration settings
+
+Standard configuration settings (mostly UNIX .dotfiles) used
+by QUTlib.
